@@ -1,0 +1,78 @@
+@media screen and (max-width: 991px) {
+  .nav-toggle {
+    display: block;
+    margin-right: 10px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .examples-area {
+    gap: 20px;
+  }
+  .example-card {
+    width: calc(50% - 10px);
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+    /* color: white; */
+  }
+  p {
+    font-size: 1rem;
+  }
+  .primary-button {
+    width: 100%;
+    text-align: center;
+  }
+  .header-section {
+    flex-direction: column-reverse;
+  }
+  .left-header {
+    max-width: 100vw;
+  }
+  .big-feature-container {
+    flex-direction: column-reverse;
+  }
+  .testing-container {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 479px) {
+  :root {
+    --padding-inline-selection: 10px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+    /* color: white; */
+  }
+  p {
+    font-size: 1rem;
+  }
+  .features-card {
+    max-width: 100%;
+  }
+  .example-card {
+    width: 100%;
+  }
+}
